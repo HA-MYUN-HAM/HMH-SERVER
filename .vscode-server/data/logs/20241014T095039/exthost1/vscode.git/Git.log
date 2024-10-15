@@ -1,0 +1,31 @@
+2024-10-14 09:50:43.082 [info] 로그 수준: Info
+2024-10-14 09:50:43.082 [info] "git"에서 찾은 git 유효성을 검사하는 중
+2024-10-14 09:50:43.082 [info] "2.40.1"에서 git "git"을(를) 사용하는 중
+2024-10-14 09:50:43.082 [warning] Failed to get repository realpath for: "/home/ec2-user/HMH". Error: ENOENT: no such file or directory, realpath '/home/ec2-user/HMH'
+2024-10-14 09:50:43.082 [info] > git rev-parse --show-toplevel [14ms]
+2024-10-14 09:50:43.082 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-14 09:50:43.087 [info] > git rev-parse --show-toplevel [7ms]
+2024-10-14 09:50:43.100 [info] > git rev-parse --git-dir --git-common-dir [4ms]
+2024-10-14 09:50:43.136 [info] Open repository: /home/ec2-user/HMH-SERVER
+2024-10-14 09:50:43.160 [info] > git config --get commit.template [8ms]
+2024-10-14 09:50:43.165 [info] > git rev-parse --show-toplevel [7ms]
+2024-10-14 09:50:43.165 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-14 09:50:43.182 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-14 09:50:43.182 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-14 09:50:43.190 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/swagger refs/remotes/swagger [19ms]
+2024-10-14 09:50:43.204 [info] > git rev-parse --show-toplevel [15ms]
+2024-10-14 09:50:43.204 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-14 09:50:43.241 [info] > git status -z -uall [39ms]
+2024-10-14 09:50:43.322 [info] > git rev-parse --show-toplevel [89ms]
+2024-10-14 09:50:43.322 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-14 09:50:43.329 [info] > git config --get commit.template [8ms]
+2024-10-14 09:50:43.503 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/swagger refs/remotes/swagger [159ms]
+2024-10-14 09:50:43.542 [info] > git status -z -uall [15ms]
+2024-10-14 09:50:43.988 [info] > git show --textconv :HMH/manage.py [159ms]
+2024-10-14 09:50:43.989 [info] > git ls-files --stage -- /home/ec2-user/HMH-SERVER/HMH/manage.py [153ms]
+2024-10-14 09:50:44.021 [info] > git check-ignore -v -z --stdin [34ms]
+2024-10-14 09:50:44.022 [info] > git cat-file -s 08186f54bbde81f529291cc4f0a44e20a6032663 [8ms]
+2024-10-14 09:50:44.598 [info] > git check-ignore -v -z --stdin [16ms]
+2024-10-14 11:53:08.299 [warning] Failed to get repository realpath for: "/home/ec2-user/HMH". Error: ENOENT: no such file or directory, realpath '/home/ec2-user/HMH'
+2024-10-14 11:53:08.307 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-14 11:53:08.307 [info] fatal: not a git repository (or any of the parent directories): .git

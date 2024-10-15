@@ -1,0 +1,10 @@
+2024-10-15 07:22:41.780 [info] 
+
+
+
+
+2024-10-15 07:22:41.800 [info] Extension host agent started.
+2024-10-15 07:22:41.884 [info] [127.0.0.1][335b5691][ManagementConnection] New connection established.
+2024-10-15 07:22:42.007 [info] [127.0.0.1][4a255aad][ExtensionHostConnection] New connection established.
+2024-10-15 07:22:42.167 [info] [127.0.0.1][4a255aad][ExtensionHostConnection] <2795> Launched Extension Host Process.
+2024-10-15 07:22:49.244 [error] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/ec2-user)

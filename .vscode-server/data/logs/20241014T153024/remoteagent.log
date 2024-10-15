@@ -1,0 +1,12 @@
+2024-10-14 15:30:24.728 [info] 
+
+
+
+
+2024-10-14 15:30:24.743 [info] Extension host agent started.
+2024-10-14 15:30:24.935 [info] [127.0.0.1][b278b231][ManagementConnection] New connection established.
+2024-10-14 15:30:24.977 [info] [127.0.0.1][e5ec0151][ExtensionHostConnection] New connection established.
+2024-10-14 15:30:25.144 [info] [127.0.0.1][e5ec0151][ExtensionHostConnection] <69186> Launched Extension Host Process.
+2024-10-14 15:35:24.745 [info] New EH opened, aborting shutdown
+2024-10-14 17:01:57.174 [error] [File Watcher (node.js)] Failed to watch /var/log/nginx/error.log for changes using fs.watch() (Error: EACCES: permission denied, watch '/var/log/nginx/error.log')
+2024-10-14 17:02:08.440 [error] [File Watcher (node.js)] Failed to watch /var/log/nginx/error.log for changes using fs.watch() (Error: EACCES: permission denied, watch '/var/log/nginx/error.log')

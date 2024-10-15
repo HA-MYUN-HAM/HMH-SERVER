@@ -1,0 +1,121 @@
+2024-10-14 15:30:27.276 [info] Extension host with pid 69186 started
+2024-10-14 15:30:27.348 [info] Lock '/home/ec2-user/.vscode-server/data/User/workspaceStorage/a5431d8de457aac0bf6f89dfb1b3a157/vscode.lock': Lock acquired.
+2024-10-14 15:30:27.479 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-10-14 15:30:27.480 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: '*', root cause: vscode.git
+2024-10-14 15:30:27.566 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2024-10-14 15:30:27.743 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: '*'
+2024-10-14 15:30:27.743 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2024-10-14 15:30:28.728 [info] Eager extensions activated
+2024-10-14 15:30:28.729 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-10-14 15:30:28.730 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-10-14 15:30:29.144 [warning] [Decorations] CAPPING events from decorations provider vscode.git 254
+2024-10-14 15:30:29.429 [warning] [Decorations] CAPPING events from decorations provider vscode.git 254
+2024-10-14 15:30:29.755 [error] Error: ENOENT: no such file or directory, scandir '/home/ec2-user/HMH'
+2024-10-14 15:46:01.736 [warning] [Decorations] CAPPING events from decorations provider vscode.git 254
+2024-10-14 15:52:36.472 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2024-10-14 16:18:43.801 [warning] [Decorations] CAPPING events from decorations provider vscode.git 255
+2024-10-14 16:18:54.932 [warning] [Decorations] CAPPING events from decorations provider vscode.git 255
+2024-10-14 16:19:01.611 [warning] [Decorations] CAPPING events from decorations provider vscode.git 255
+2024-10-14 16:20:50.283 [warning] [Decorations] CAPPING events from decorations provider vscode.git 255
+2024-10-14 16:24:28.259 [warning] [Decorations] CAPPING events from decorations provider vscode.git 254
+2024-10-14 16:29:36.204 [warning] [Decorations] CAPPING events from decorations provider vscode.git 254
+2024-10-14 16:30:30.541 [warning] [Decorations] CAPPING events from decorations provider vscode.git 255
+2024-10-14 16:30:37.305 [warning] [Decorations] CAPPING events from decorations provider vscode.git 255
+2024-10-14 16:30:48.173 [warning] [Decorations] CAPPING events from decorations provider vscode.git 255
+2024-10-14 16:30:53.196 [warning] [Decorations] CAPPING events from decorations provider vscode.git 255
+2024-10-14 16:30:59.967 [warning] [Decorations] CAPPING events from decorations provider vscode.git 255
+2024-10-14 16:31:22.340 [warning] [Decorations] CAPPING events from decorations provider vscode.git 254
+2024-10-14 16:31:54.732 [warning] [Decorations] CAPPING events from decorations provider vscode.git 254
+2024-10-14 16:32:29.090 [warning] [Decorations] CAPPING events from decorations provider vscode.git 254
+2024-10-14 16:33:02.833 [warning] [Decorations] CAPPING events from decorations provider vscode.git 254
+2024-10-14 16:33:07.854 [warning] [Decorations] CAPPING events from decorations provider vscode.git 254
+2024-10-14 16:33:21.929 [warning] [Decorations] CAPPING events from decorations provider vscode.git 254
+2024-10-14 16:33:40.359 [warning] [Decorations] CAPPING events from decorations provider vscode.git 254
+2024-10-14 16:33:56.007 [warning] [Decorations] CAPPING events from decorations provider vscode.git 254
+2024-10-14 16:34:02.811 [warning] [Decorations] CAPPING events from decorations provider vscode.git 254
+2024-10-14 16:37:20.883 [warning] [Decorations] CAPPING events from decorations provider vscode.git 254
+2024-10-14 16:38:10.699 [warning] [Decorations] CAPPING events from decorations provider vscode.git 255
+2024-10-14 16:38:25.168 [warning] [Decorations] CAPPING events from decorations provider vscode.git 255
+2024-10-14 16:38:45.187 [warning] [Decorations] CAPPING events from decorations provider vscode.git 255
+2024-10-14 16:39:57.590 [warning] [Decorations] CAPPING events from decorations provider vscode.git 254
+2024-10-14 16:40:39.258 [warning] [Decorations] CAPPING events from decorations provider vscode.git 254
+2024-10-14 16:52:27.581 [warning] [Decorations] CAPPING events from decorations provider vscode.git 255
+2024-10-14 16:52:32.601 [warning] [Decorations] CAPPING events from decorations provider vscode.git 255
+2024-10-14 16:52:54.861 [warning] [Decorations] CAPPING events from decorations provider vscode.git 255
+2024-10-14 16:53:24.132 [warning] [Decorations] CAPPING events from decorations provider vscode.git 254
+2024-10-14 16:54:22.341 [warning] [Decorations] CAPPING events from decorations provider vscode.git 254
+2024-10-14 16:54:43.078 [warning] [Decorations] CAPPING events from decorations provider vscode.git 254
+2024-10-14 16:54:49.879 [warning] [Decorations] CAPPING events from decorations provider vscode.git 254
+2024-10-14 16:55:48.213 [warning] [Decorations] CAPPING events from decorations provider vscode.git 255
+2024-10-14 16:55:53.234 [warning] [Decorations] CAPPING events from decorations provider vscode.git 255
+2024-10-14 16:55:58.256 [warning] [Decorations] CAPPING events from decorations provider vscode.git 255
+2024-10-14 16:56:07.186 [warning] [Decorations] CAPPING events from decorations provider vscode.git 255
+2024-10-14 16:56:28.443 [warning] [Decorations] CAPPING events from decorations provider vscode.git 255
+2024-10-14 16:57:01.080 [warning] [Decorations] CAPPING events from decorations provider vscode.git 254
+2024-10-14 16:58:00.711 [warning] [Decorations] CAPPING events from decorations provider vscode.git 254
+2024-10-14 16:58:11.960 [warning] [Decorations] CAPPING events from decorations provider vscode.git 254
+2024-10-14 16:59:01.591 [warning] [Decorations] CAPPING events from decorations provider vscode.git 254
+2024-10-14 17:03:48.956 [warning] [Decorations] CAPPING events from decorations provider vscode.git 254
+2024-10-14 17:11:14.170 [warning] [Decorations] CAPPING events from decorations provider vscode.git 254
+2024-10-14 17:12:15.982 [warning] [Decorations] CAPPING events from decorations provider vscode.git 254
+2024-10-14 17:12:39.635 [warning] [Decorations] CAPPING events from decorations provider vscode.git 254
+2024-10-14 17:13:55.904 [warning] [Decorations] CAPPING events from decorations provider vscode.git 254
+2024-10-14 17:15:08.615 [warning] [Decorations] CAPPING events from decorations provider vscode.git 254
+2024-10-14 17:15:20.419 [warning] [Decorations] CAPPING events from decorations provider vscode.git 254
+2024-10-14 17:18:20.023 [warning] [Decorations] CAPPING events from decorations provider vscode.git 254
+2024-10-14 17:23:59.728 [warning] [Decorations] CAPPING events from decorations provider vscode.git 254
+2024-10-14 17:24:27.007 [warning] [Decorations] CAPPING events from decorations provider vscode.git 254
+2024-10-14 17:25:33.356 [warning] [Decorations] CAPPING events from decorations provider vscode.git 254
+2024-10-14 17:26:55.414 [warning] [Decorations] CAPPING events from decorations provider vscode.git 254
+2024-10-14 17:27:26.638 [warning] [Decorations] CAPPING events from decorations provider vscode.git 254
+2024-10-14 17:27:31.661 [warning] [Decorations] CAPPING events from decorations provider vscode.git 254
+2024-10-14 18:00:25.098 [warning] [Decorations] CAPPING events from decorations provider vscode.git 254
+2024-10-14 18:03:48.396 [warning] [Decorations] CAPPING events from decorations provider vscode.git 269
+2024-10-14 18:03:57.026 [warning] [Decorations] CAPPING events from decorations provider vscode.git 269
+2024-10-14 18:09:56.887 [error] {"message":"Git error","stdout":"","stderr":"fatal: pathspec '/home/ec2-user/HMH-SERVER/HMH/be/venv/lib64/python3.9/site-packages' is beyond a symbolic link\n","exitCode":128}
+2024-10-14 18:09:56.889 [error] {"message":"Git error","stdout":"","stderr":"fatal: pathspec '/home/ec2-user/HMH-SERVER/HMH/be/venv/lib64/python3.9/site-packages' is beyond a symbolic link\n","exitCode":128}
+2024-10-14 18:09:56.889 [error] {"message":"Git error","stdout":"","stderr":"fatal: pathspec '/home/ec2-user/HMH-SERVER/HMH/be/venv/lib64/python3.9/site-packages' is beyond a symbolic link\n","exitCode":128}
+2024-10-14 18:09:56.889 [error] {"message":"Git error","stdout":"","stderr":"fatal: pathspec '/home/ec2-user/HMH-SERVER/HMH/be/venv/lib64/python3.9/site-packages' is beyond a symbolic link\n","exitCode":128}
+2024-10-14 18:09:56.889 [error] {"message":"Git error","stdout":"","stderr":"fatal: pathspec '/home/ec2-user/HMH-SERVER/HMH/be/venv/lib64/python3.9/site-packages' is beyond a symbolic link\n","exitCode":128}
+2024-10-14 18:09:56.889 [error] {"message":"Git error","stdout":"","stderr":"fatal: pathspec '/home/ec2-user/HMH-SERVER/HMH/be/venv/lib64/python3.9/site-packages' is beyond a symbolic link\n","exitCode":128}
+2024-10-14 18:09:56.889 [error] {"message":"Git error","stdout":"","stderr":"fatal: pathspec '/home/ec2-user/HMH-SERVER/HMH/be/venv/lib64/python3.9/site-packages' is beyond a symbolic link\n","exitCode":128}
+2024-10-14 18:09:56.889 [error] {"message":"Git error","stdout":"","stderr":"fatal: pathspec '/home/ec2-user/HMH-SERVER/HMH/be/venv/lib64/python3.9/site-packages' is beyond a symbolic link\n","exitCode":128}
+2024-10-14 18:09:56.889 [error] {"message":"Git error","stdout":"","stderr":"fatal: pathspec '/home/ec2-user/HMH-SERVER/HMH/be/venv/lib64/python3.9/site-packages' is beyond a symbolic link\n","exitCode":128}
+2024-10-14 18:09:56.889 [error] {"message":"Git error","stdout":"","stderr":"fatal: pathspec '/home/ec2-user/HMH-SERVER/HMH/be/venv/lib64/python3.9/site-packages' is beyond a symbolic link\n","exitCode":128}
+2024-10-14 18:09:56.889 [error] {"message":"Git error","stdout":"","stderr":"fatal: pathspec '/home/ec2-user/HMH-SERVER/HMH/be/venv/lib64/python3.9/site-packages' is beyond a symbolic link\n","exitCode":128}
+2024-10-14 18:09:56.889 [error] {"message":"Git error","stdout":"","stderr":"fatal: pathspec '/home/ec2-user/HMH-SERVER/HMH/be/venv/lib64/python3.9/site-packages' is beyond a symbolic link\n","exitCode":128}
+2024-10-14 18:09:56.889 [error] {"message":"Git error","stdout":"","stderr":"fatal: pathspec '/home/ec2-user/HMH-SERVER/HMH/be/venv/lib64/python3.9/site-packages' is beyond a symbolic link\n","exitCode":128}
+2024-10-14 18:09:56.889 [error] {"message":"Git error","stdout":"","stderr":"fatal: pathspec '/home/ec2-user/HMH-SERVER/HMH/be/venv/lib64/python3.9/site-packages' is beyond a symbolic link\n","exitCode":128}
+2024-10-14 18:09:56.889 [error] {"message":"Git error","stdout":"","stderr":"fatal: pathspec '/home/ec2-user/HMH-SERVER/HMH/be/venv/lib64/python3.9/site-packages' is beyond a symbolic link\n","exitCode":128}
+2024-10-14 18:09:56.891 [error] {"message":"Git error","stdout":"","stderr":"fatal: pathspec '/home/ec2-user/HMH-SERVER/HMH/be/venv/lib64/python3.9/site-packages' is beyond a symbolic link\n","exitCode":128}
+2024-10-14 18:09:56.891 [error] {"message":"Git error","stdout":"","stderr":"fatal: pathspec '/home/ec2-user/HMH-SERVER/HMH/be/venv/lib64/python3.9/site-packages' is beyond a symbolic link\n","exitCode":128}
+2024-10-14 18:09:56.891 [error] {"message":"Git error","stdout":"","stderr":"fatal: pathspec '/home/ec2-user/HMH-SERVER/HMH/be/venv/lib64/python3.9/site-packages' is beyond a symbolic link\n","exitCode":128}
+2024-10-14 18:09:56.891 [error] {"message":"Git error","stdout":"","stderr":"fatal: pathspec '/home/ec2-user/HMH-SERVER/HMH/be/venv/lib64/python3.9/site-packages' is beyond a symbolic link\n","exitCode":128}
+2024-10-14 18:09:56.891 [error] {"message":"Git error","stdout":"","stderr":"fatal: pathspec '/home/ec2-user/HMH-SERVER/HMH/be/venv/lib64/python3.9/site-packages' is beyond a symbolic link\n","exitCode":128}
+2024-10-14 18:09:56.891 [error] {"message":"Git error","stdout":"","stderr":"fatal: pathspec '/home/ec2-user/HMH-SERVER/HMH/be/venv/lib64/python3.9/site-packages' is beyond a symbolic link\n","exitCode":128}
+2024-10-14 18:09:57.893 [error] {"message":"Git error","stdout":"","stderr":"fatal: pathspec '/home/ec2-user/HMH-SERVER/HMH/be/venv/lib64/python3.9/site-packages' is beyond a symbolic link\n","exitCode":128}
+2024-10-14 18:09:57.894 [error] {"message":"Git error","stdout":"","stderr":"fatal: pathspec '/home/ec2-user/HMH-SERVER/HMH/be/venv/lib64/python3.9/site-packages' is beyond a symbolic link\n","exitCode":128}
+2024-10-14 18:09:57.894 [error] {"message":"Git error","stdout":"","stderr":"fatal: pathspec '/home/ec2-user/HMH-SERVER/HMH/be/venv/lib64/python3.9/site-packages' is beyond a symbolic link\n","exitCode":128}
+2024-10-14 18:09:57.894 [error] {"message":"Git error","stdout":"","stderr":"fatal: pathspec '/home/ec2-user/HMH-SERVER/HMH/be/venv/lib64/python3.9/site-packages' is beyond a symbolic link\n","exitCode":128}
+2024-10-14 18:09:57.894 [error] {"message":"Git error","stdout":"","stderr":"fatal: pathspec '/home/ec2-user/HMH-SERVER/HMH/be/venv/lib64/python3.9/site-packages' is beyond a symbolic link\n","exitCode":128}
+2024-10-14 18:09:57.894 [error] {"message":"Git error","stdout":"","stderr":"fatal: pathspec '/home/ec2-user/HMH-SERVER/HMH/be/venv/lib64/python3.9/site-packages' is beyond a symbolic link\n","exitCode":128}
+2024-10-14 18:09:57.894 [error] {"message":"Git error","stdout":"","stderr":"fatal: pathspec '/home/ec2-user/HMH-SERVER/HMH/be/venv/lib64/python3.9/site-packages' is beyond a symbolic link\n","exitCode":128}
+2024-10-14 18:09:57.894 [error] {"message":"Git error","stdout":"","stderr":"fatal: pathspec '/home/ec2-user/HMH-SERVER/HMH/be/venv/lib64/python3.9/site-packages' is beyond a symbolic link\n","exitCode":128}
+2024-10-14 18:09:57.894 [error] {"message":"Git error","stdout":"","stderr":"fatal: pathspec '/home/ec2-user/HMH-SERVER/HMH/be/venv/lib64/python3.9/site-packages' is beyond a symbolic link\n","exitCode":128}
+2024-10-14 18:09:57.894 [error] {"message":"Git error","stdout":"","stderr":"fatal: pathspec '/home/ec2-user/HMH-SERVER/HMH/be/venv/lib64/python3.9/site-packages' is beyond a symbolic link\n","exitCode":128}
+2024-10-14 18:09:57.894 [error] {"message":"Git error","stdout":"","stderr":"fatal: pathspec '/home/ec2-user/HMH-SERVER/HMH/be/venv/lib64/python3.9/site-packages' is beyond a symbolic link\n","exitCode":128}
+2024-10-14 18:09:57.895 [error] {"message":"Git error","stdout":"","stderr":"fatal: pathspec '/home/ec2-user/HMH-SERVER/HMH/be/venv/lib64/python3.9/site-packages' is beyond a symbolic link\n","exitCode":128}
+2024-10-14 18:09:57.895 [error] {"message":"Git error","stdout":"","stderr":"fatal: pathspec '/home/ec2-user/HMH-SERVER/HMH/be/venv/lib64/python3.9/site-packages' is beyond a symbolic link\n","exitCode":128}
+2024-10-14 18:09:57.895 [error] {"message":"Git error","stdout":"","stderr":"fatal: pathspec '/home/ec2-user/HMH-SERVER/HMH/be/venv/lib64/python3.9/site-packages' is beyond a symbolic link\n","exitCode":128}
+2024-10-14 18:09:57.895 [error] {"message":"Git error","stdout":"","stderr":"fatal: pathspec '/home/ec2-user/HMH-SERVER/HMH/be/venv/lib64/python3.9/site-packages' is beyond a symbolic link\n","exitCode":128}
+2024-10-14 18:09:57.895 [error] {"message":"Git error","stdout":"","stderr":"fatal: pathspec '/home/ec2-user/HMH-SERVER/HMH/be/venv/lib64/python3.9/site-packages' is beyond a symbolic link\n","exitCode":128}
+2024-10-14 18:09:57.895 [error] {"message":"Git error","stdout":"","stderr":"fatal: pathspec '/home/ec2-user/HMH-SERVER/HMH/be/venv/lib64/python3.9/site-packages' is beyond a symbolic link\n","exitCode":128}
+2024-10-14 18:09:57.895 [error] {"message":"Git error","stdout":"","stderr":"fatal: pathspec '/home/ec2-user/HMH-SERVER/HMH/be/venv/lib64/python3.9/site-packages' is beyond a symbolic link\n","exitCode":128}
+2024-10-14 18:09:57.895 [error] {"message":"Git error","stdout":"","stderr":"fatal: pathspec '/home/ec2-user/HMH-SERVER/HMH/be/venv/lib64/python3.9/site-packages' is beyond a symbolic link\n","exitCode":128}
+2024-10-14 18:09:57.895 [error] {"message":"Git error","stdout":"","stderr":"fatal: pathspec '/home/ec2-user/HMH-SERVER/HMH/be/venv/lib64/python3.9/site-packages' is beyond a symbolic link\n","exitCode":128}
+2024-10-14 18:09:57.895 [error] {"message":"Git error","stdout":"","stderr":"fatal: pathspec '/home/ec2-user/HMH-SERVER/HMH/be/venv/lib64/python3.9/site-packages' is beyond a symbolic link\n","exitCode":128}
+2024-10-14 18:11:31.037 [warning] [Decorations] CAPPING events from decorations provider vscode.git 269
+2024-10-14 18:40:37.022 [warning] [Decorations] CAPPING events from decorations provider vscode.git 269
+2024-10-14 18:40:48.000 [warning] [Decorations] CAPPING events from decorations provider vscode.git 269
+2024-10-14 18:40:53.058 [warning] [Decorations] CAPPING events from decorations provider vscode.git 269
+2024-10-14 18:43:17.817 [warning] [Decorations] CAPPING events from decorations provider vscode.git 269

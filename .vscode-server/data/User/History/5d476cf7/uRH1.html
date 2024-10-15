@@ -1,0 +1,7 @@
+{% load socialaccount %}
+    <form action="{% provider_login_url 'kakao' %}" method="post">
+        {% csrf_token %}
+        <button class="p-0" type="submit" style="border: 0; background: transparent">
+            <img src="{% static 'img/kakao_login_large_narrow.png' %}" height="38px" alt="Log In With Kakao"/>
+        </button>
+    </form>

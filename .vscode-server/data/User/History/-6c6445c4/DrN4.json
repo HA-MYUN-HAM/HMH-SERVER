@@ -1,0 +1,8 @@
+{
+    "terminal.integrated.rendererType": "dom",
+    "terminal.integrated.defaultProfile.osx": "bash",
+    "files.associations": {
+        "*.c": "c"
+    },
+    "git.enableSmartCommit": true
+}

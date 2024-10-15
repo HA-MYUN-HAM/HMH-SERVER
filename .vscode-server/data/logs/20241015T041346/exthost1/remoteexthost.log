@@ -1,0 +1,35 @@
+2024-10-15 04:13:49.149 [info] Extension host with pid 2909 started
+2024-10-15 04:13:49.172 [error] Error: EEXIST: file already exists, open '/home/ec2-user/.vscode-server/data/User/workspaceStorage/a5431d8de457aac0bf6f89dfb1b3a157/vscode.lock'
+2024-10-15 04:13:49.181 [info] Lock '/home/ec2-user/.vscode-server/data/User/workspaceStorage/a5431d8de457aac0bf6f89dfb1b3a157/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-10-15 04:13:49.243 [info] Lock '/home/ec2-user/.vscode-server/data/User/workspaceStorage/a5431d8de457aac0bf6f89dfb1b3a157/vscode.lock': The pid 20043 appears to be gone.
+2024-10-15 04:13:49.243 [info] Lock '/home/ec2-user/.vscode-server/data/User/workspaceStorage/a5431d8de457aac0bf6f89dfb1b3a157/vscode.lock': Deleting a stale lock.
+2024-10-15 04:13:49.246 [info] Lock '/home/ec2-user/.vscode-server/data/User/workspaceStorage/a5431d8de457aac0bf6f89dfb1b3a157/vscode.lock': Lock acquired.
+2024-10-15 04:13:49.349 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: 'onFileSystem:git', root cause: vscode.git
+2024-10-15 04:13:49.354 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-10-15 04:13:49.365 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2024-10-15 04:13:49.636 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'onFileSystem:git'
+2024-10-15 04:13:49.636 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2024-10-15 04:13:50.621 [info] Eager extensions activated
+2024-10-15 04:13:50.621 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-10-15 04:13:50.621 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-10-15 04:13:50.887 [warning] [Decorations] CAPPING events from decorations provider vscode.git 269
+2024-10-15 04:13:51.160 [warning] [Decorations] CAPPING events from decorations provider vscode.git 269
+2024-10-15 04:13:51.632 [error] Error: ENOENT: no such file or directory, scandir '/home/ec2-user/HMH'
+2024-10-15 04:14:19.561 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2024-10-15 06:36:34.717 [warning] [Decorations] CAPPING events from decorations provider vscode.git 269
+2024-10-15 06:36:49.395 [warning] [Decorations] CAPPING events from decorations provider vscode.git 269
+2024-10-15 06:36:54.638 [warning] [Decorations] CAPPING events from decorations provider vscode.git 269
+2024-10-15 06:36:57.734 [warning] [Decorations] CAPPING events from decorations provider vscode.git 269
+2024-10-15 06:40:28.180 [warning] [Decorations] CAPPING events from decorations provider vscode.git 269
+2024-10-15 06:40:29.224 [warning] [Decorations] CAPPING events from decorations provider vscode.git 269
+2024-10-15 06:40:35.310 [warning] Using default string since no string found in i18n bundle that has the key: OK, Don't Show Again
+2024-10-15 06:40:40.052 [warning] [Decorations] CAPPING events from decorations provider vscode.git 269
+2024-10-15 06:40:43.095 [warning] [Decorations] CAPPING events from decorations provider vscode.git 269
+2024-10-15 06:40:49.657 [warning] [Decorations] CAPPING events from decorations provider vscode.git 269
+2024-10-15 06:40:53.582 [warning] [Decorations] CAPPING events from decorations provider vscode.git 269
+2024-10-15 06:43:08.726 [warning] [Decorations] CAPPING events from decorations provider vscode.git 269
+2024-10-15 06:43:14.106 [warning] [Decorations] CAPPING events from decorations provider vscode.git 269
+2024-10-15 06:43:17.772 [warning] [Decorations] CAPPING events from decorations provider vscode.git 269
+2024-10-15 06:44:37.571 [warning] Using default string since no string found in i18n bundle that has the key: Don't Show Again
+2024-10-15 06:44:47.704 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2024-10-15 06:44:49.885 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000

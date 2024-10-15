@@ -1,0 +1,64 @@
+2024-10-15 03:31:02.838 [info] Extension host with pid 20043 started
+2024-10-15 03:31:02.846 [error] Error: EEXIST: file already exists, open '/home/ec2-user/.vscode-server/data/User/workspaceStorage/a5431d8de457aac0bf6f89dfb1b3a157/vscode.lock'
+2024-10-15 03:31:02.849 [info] Lock '/home/ec2-user/.vscode-server/data/User/workspaceStorage/a5431d8de457aac0bf6f89dfb1b3a157/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-10-15 03:31:02.873 [info] Lock '/home/ec2-user/.vscode-server/data/User/workspaceStorage/a5431d8de457aac0bf6f89dfb1b3a157/vscode.lock': The pid 69186 appears to be gone.
+2024-10-15 03:31:02.874 [info] Lock '/home/ec2-user/.vscode-server/data/User/workspaceStorage/a5431d8de457aac0bf6f89dfb1b3a157/vscode.lock': Deleting a stale lock.
+2024-10-15 03:31:02.878 [info] Lock '/home/ec2-user/.vscode-server/data/User/workspaceStorage/a5431d8de457aac0bf6f89dfb1b3a157/vscode.lock': Lock acquired.
+2024-10-15 03:31:03.203 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-10-15 03:31:03.204 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2024-10-15 03:31:03.205 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: '*', root cause: vscode.git
+2024-10-15 03:31:03.443 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: '*'
+2024-10-15 03:31:03.445 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2024-10-15 03:31:04.187 [info] Eager extensions activated
+2024-10-15 03:31:04.188 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-10-15 03:31:04.188 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-10-15 03:31:04.324 [warning] [Decorations] CAPPING events from decorations provider vscode.git 269
+2024-10-15 03:31:04.457 [warning] [Decorations] CAPPING events from decorations provider vscode.git 269
+2024-10-15 03:31:05.128 [error] Error: ENOENT: no such file or directory, scandir '/home/ec2-user/HMH'
+2024-10-15 03:31:36.198 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2024-10-15 03:32:14.616 [warning] [Decorations] CAPPING events from decorations provider vscode.git 269
+2024-10-15 03:32:43.622 [warning] [Decorations] CAPPING events from decorations provider vscode.git 269
+2024-10-15 03:33:47.014 [warning] [Decorations] CAPPING events from decorations provider vscode.git 269
+2024-10-15 03:34:00.968 [warning] [Decorations] CAPPING events from decorations provider vscode.git 269
+2024-10-15 03:35:34.827 [warning] [Decorations] CAPPING events from decorations provider vscode.git 269
+2024-10-15 03:35:52.100 [warning] [Decorations] CAPPING events from decorations provider vscode.git 269
+2024-10-15 03:36:58.648 [warning] [Decorations] CAPPING events from decorations provider vscode.git 269
+2024-10-15 03:38:18.175 [warning] [Decorations] CAPPING events from decorations provider vscode.git 269
+2024-10-15 03:38:40.637 [warning] [Decorations] CAPPING events from decorations provider vscode.git 269
+2024-10-15 03:38:52.536 [warning] [Decorations] CAPPING events from decorations provider vscode.git 269
+2024-10-15 03:40:32.546 [warning] [Decorations] CAPPING events from decorations provider vscode.git 269
+2024-10-15 03:41:57.523 [warning] [Decorations] CAPPING events from decorations provider vscode.git 269
+2024-10-15 03:42:36.105 [warning] [Decorations] CAPPING events from decorations provider vscode.git 269
+2024-10-15 03:43:09.726 [warning] [Decorations] CAPPING events from decorations provider vscode.git 269
+2024-10-15 03:43:22.441 [warning] [Decorations] CAPPING events from decorations provider vscode.git 269
+2024-10-15 03:44:01.013 [warning] [Decorations] CAPPING events from decorations provider vscode.git 269
+2024-10-15 03:54:12.405 [warning] [Decorations] CAPPING events from decorations provider vscode.git 269
+2024-10-15 03:54:22.109 [info] ExtensionService#_doActivateExtension vscode.debug-server-ready, startup: false, activationEvent: 'onDebugResolve'
+2024-10-15 03:59:11.269 [warning] [Decorations] CAPPING events from decorations provider vscode.git 269
+2024-10-15 04:01:49.786 [warning] [Decorations] CAPPING events from decorations provider vscode.git 269
+2024-10-15 04:02:48.925 [warning] Using default string since no string found in i18n bundle that has the key: There are no staged changes to commit.
+
+Would you like to stage all your changes and commit them directly?
+2024-10-15 04:02:49.511 [warning] Using default string since no string found in i18n bundle that has the key: There are no staged changes to commit.
+
+Would you like to stage all your changes and commit them directly?
+2024-10-15 04:02:49.547 [warning] Using default string since no string found in i18n bundle that has the key: There are no staged changes to commit.
+
+Would you like to stage all your changes and commit them directly?
+2024-10-15 04:02:49.549 [warning] Using default string since no string found in i18n bundle that has the key: There are no staged changes to commit.
+
+Would you like to stage all your changes and commit them directly?
+2024-10-15 04:02:59.611 [warning] Using default string since no string found in i18n bundle that has the key: There are no staged changes to commit.
+
+Would you like to stage all your changes and commit them directly?
+2024-10-15 04:03:26.691 [warning] [Decorations] CAPPING events from decorations provider vscode.git 269
+2024-10-15 04:03:34.979 [warning] Using default string since no string found in i18n bundle that has the key: There are no staged changes to commit.
+
+Would you like to stage all your changes and commit them directly?
+2024-10-15 04:03:44.604 [warning] Using default string since no string found in i18n bundle that has the key: There are no staged changes to commit.
+
+Would you like to stage all your changes and commit them directly?
+2024-10-15 04:03:51.757 [warning] [Decorations] CAPPING events from decorations provider vscode.git 269
+2024-10-15 04:03:56.634 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-10-15 04:03:57.107 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-10-15 04:05:52.830 [warning] [Decorations] CAPPING events from decorations provider vscode.git 269

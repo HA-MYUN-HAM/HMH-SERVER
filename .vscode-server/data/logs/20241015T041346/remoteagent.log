@@ -1,0 +1,48 @@
+2024-10-15 04:13:46.991 [info] 
+
+
+
+
+2024-10-15 04:13:47.011 [info] Extension host agent started.
+2024-10-15 04:13:47.103 [info] [127.0.0.1][8f37db45][ManagementConnection] New connection established.
+2024-10-15 04:13:47.115 [info] [127.0.0.1][e0c30902][ExtensionHostConnection] New connection established.
+2024-10-15 04:13:47.186 [info] [127.0.0.1][e0c30902][ExtensionHostConnection] <2909> Launched Extension Host Process.
+2024-10-15 04:13:54.231 [error] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/ec2-user)
+2024-10-15 04:18:47.012 [info] New EH opened, aborting shutdown
+2024-10-15 04:53:51.851 [info] [127.0.0.1][e0c30902][ExtensionHostConnection] The client has reconnected.
+2024-10-15 04:53:53.133 [info] [127.0.0.1][8f37db45][ManagementConnection] The client has reconnected.
+2024-10-15 04:53:56.895 [info] [127.0.0.1][8f37db45][ManagementConnection] The client has reconnected.
+2024-10-15 04:55:22.860 [info] [127.0.0.1][8f37db45][ManagementConnection] The client has reconnected.
+2024-10-15 04:55:27.308 [info] [127.0.0.1][e0c30902][ExtensionHostConnection] The client has reconnected.
+2024-10-15 05:04:16.206 [info] [127.0.0.1][8f37db45][ManagementConnection] The client has reconnected.
+2024-10-15 05:04:16.208 [info] [127.0.0.1][e0c30902][ExtensionHostConnection] The client has reconnected.
+2024-10-15 05:04:20.328 [info] [127.0.0.1][e0c30902][ExtensionHostConnection] The client has reconnected.
+2024-10-15 05:04:21.107 [info] [127.0.0.1][8f37db45][ManagementConnection] The client has reconnected.
+2024-10-15 05:04:25.857 [info] [127.0.0.1][8f37db45][ManagementConnection] The client has reconnected.
+2024-10-15 05:05:00.928 [info] [127.0.0.1][e0c30902][ExtensionHostConnection] The client has reconnected.
+2024-10-15 05:24:08.515 [info] [127.0.0.1][8f37db45][ManagementConnection] The client has reconnected.
+2024-10-15 05:24:08.534 [info] [127.0.0.1][e0c30902][ExtensionHostConnection] The client has reconnected.
+2024-10-15 05:31:59.158 [info] [127.0.0.1][8f37db45][ManagementConnection] The client has reconnected.
+2024-10-15 05:31:59.182 [info] [127.0.0.1][e0c30902][ExtensionHostConnection] The client has reconnected.
+2024-10-15 05:39:49.213 [info] [127.0.0.1][8f37db45][ManagementConnection] The client has reconnected.
+2024-10-15 05:39:49.315 [info] [127.0.0.1][e0c30902][ExtensionHostConnection] The client has reconnected.
+2024-10-15 05:44:44.094 [info] [127.0.0.1][8f37db45][ManagementConnection] The client has reconnected.
+2024-10-15 05:44:44.124 [info] [127.0.0.1][e0c30902][ExtensionHostConnection] The client has reconnected.
+2024-10-15 05:46:01.609 [info] [127.0.0.1][8f37db45][ManagementConnection] The client has reconnected.
+2024-10-15 05:46:01.632 [info] [127.0.0.1][e0c30902][ExtensionHostConnection] The client has reconnected.
+2024-10-15 05:57:34.495 [info] [127.0.0.1][8f37db45][ManagementConnection] The client has reconnected.
+2024-10-15 05:57:34.509 [info] [127.0.0.1][e0c30902][ExtensionHostConnection] The client has reconnected.
+2024-10-15 06:17:01.416 [info] [127.0.0.1][8f37db45][ManagementConnection] The client has reconnected.
+2024-10-15 06:17:01.432 [info] [127.0.0.1][e0c30902][ExtensionHostConnection] The client has reconnected.
+2024-10-15 06:26:50.940 [info] [127.0.0.1][8f37db45][ManagementConnection] The client has reconnected.
+2024-10-15 06:26:51.048 [info] [127.0.0.1][e0c30902][ExtensionHostConnection] The client has reconnected.
+2024-10-15 06:27:46.226 [info] [127.0.0.1][8f37db45][ManagementConnection] The client has reconnected.
+2024-10-15 06:27:46.255 [info] [127.0.0.1][e0c30902][ExtensionHostConnection] The client has reconnected.
+2024-10-15 06:45:21.120 [warning] No ptyHost heartbeat after 6 seconds
+2024-10-15 06:54:53.064 [warning] No ptyHost heartbeat after 6 seconds
+2024-10-15 07:06:14.573 [info] [127.0.0.1][ea6ddeb7][ExtensionHostConnection] New connection established.
+2024-10-15 07:06:14.578 [info] [127.0.0.1][7bf26362][ManagementConnection] New connection established.
+2024-10-15 07:06:14.590 [info] [127.0.0.1][ea6ddeb7][ExtensionHostConnection] <14426> Launched Extension Host Process.
+2024-10-15 07:06:27.151 [warning] No ptyHost heartbeat after 6 seconds
+2024-10-15 07:06:39.935 [warning] No ptyHost heartbeat after 6 seconds
+2024-10-15 07:09:30.094 [warning] No ptyHost heartbeat after 6 seconds

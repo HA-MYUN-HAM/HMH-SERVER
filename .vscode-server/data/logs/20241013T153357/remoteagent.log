@@ -1,0 +1,16 @@
+2024-10-13 15:33:57.684 [info] 
+
+
+
+
+2024-10-13 15:33:57.703 [info] Extension host agent started.
+2024-10-13 15:33:57.964 [info] [127.0.0.1][1e514971][ManagementConnection] New connection established.
+2024-10-13 15:33:57.999 [info] [127.0.0.1][ab55f219][ExtensionHostConnection] New connection established.
+2024-10-13 15:33:58.125 [info] [127.0.0.1][ab55f219][ExtensionHostConnection] <3033> Launched Extension Host Process.
+2024-10-13 15:38:57.706 [info] New EH opened, aborting shutdown
+2024-10-13 15:47:08.435 [info] [127.0.0.1][ab55f219][ExtensionHostConnection] The client has reconnected.
+2024-10-13 15:47:11.338 [info] [127.0.0.1][1e514971][ManagementConnection] The client has reconnected.
+2024-10-13 15:47:13.413 [info] [127.0.0.1][1e514971][ManagementConnection] The client has reconnected.
+2024-10-13 15:52:13.624 [info] [127.0.0.1][ab55f219][ExtensionHostConnection] <3033> Extension Host Process exited with code: 0, signal: null.
+2024-10-13 15:52:13.624 [info] Last EH closed, waiting before shutting down
+2024-10-13 15:57:13.626 [info] Last EH closed, shutting down

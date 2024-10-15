@@ -1,0 +1,118 @@
+2024-10-13 18:49:00.246 [info] 
+
+
+
+
+2024-10-13 18:49:00.265 [info] Extension host agent started.
+2024-10-13 18:49:01.006 [error] [127.0.0.1][ab55f219][ExtensionHostConnection] Unknown reconnection token (never seen).
+2024-10-13 18:49:01.010 [error] [127.0.0.1][1e514971][ManagementConnection] Unknown reconnection token (never seen).
+2024-10-13 18:49:07.173 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2024-10-13 18:49:07.173 [info] Cancelling previous shutdown timeout
+2024-10-13 18:49:07.626 [info] [127.0.0.1][0f0af0bc][ManagementConnection] New connection established.
+2024-10-13 18:49:08.158 [info] [127.0.0.1][febd5cb2][ExtensionHostConnection] New connection established.
+2024-10-13 18:49:08.209 [info] [127.0.0.1][febd5cb2][ExtensionHostConnection] <10275> Launched Extension Host Process.
+2024-10-13 18:49:14.810 [error] [File Watcher (parcel)] Unexpected error: inotify_add_watch on '/home/ec2-user/.vscode-server/data/logs/20241001T072903' failed: No such file or directory (EUNKNOWN) (path: /home/ec2-user)
+2024-10-13 18:49:14.814 [error] [File Watcher (universal)] restarting watcher after error: inotify_add_watch on '/home/ec2-user/.vscode-server/data/logs/20241001T072903' failed: No such file or directory
+2024-10-13 18:54:07.174 [info] New EH opened, aborting shutdown
+2024-10-13 19:21:52.336 [info] [127.0.0.1][0f0af0bc][ManagementConnection] The client has reconnected.
+2024-10-13 19:22:05.545 [info] [127.0.0.1][febd5cb2][ExtensionHostConnection] The client has reconnected.
+2024-10-13 19:51:38.636 [info] [127.0.0.1][febd5cb2][ExtensionHostConnection] The client has reconnected.
+2024-10-13 20:11:07.052 [info] [127.0.0.1][0f0af0bc][ManagementConnection] The client has reconnected.
+2024-10-13 20:11:07.057 [info] [127.0.0.1][febd5cb2][ExtensionHostConnection] The client has reconnected.
+2024-10-13 20:20:08.318 [info] [127.0.0.1][0f0af0bc][ManagementConnection] The client has reconnected.
+2024-10-13 20:20:39.745 [info] [127.0.0.1][0f0af0bc][ManagementConnection] The client has reconnected.
+2024-10-13 20:20:52.596 [info] [127.0.0.1][febd5cb2][ExtensionHostConnection] The client has reconnected.
+2024-10-13 20:39:18.911 [info] [127.0.0.1][0f0af0bc][ManagementConnection] The client has reconnected.
+2024-10-13 20:39:19.083 [info] [127.0.0.1][febd5cb2][ExtensionHostConnection] The client has reconnected.
+2024-10-13 21:05:30.389 [info] [127.0.0.1][0f0af0bc][ManagementConnection] The client has reconnected.
+2024-10-13 21:05:30.549 [info] [127.0.0.1][febd5cb2][ExtensionHostConnection] The client has reconnected.
+2024-10-13 21:31:51.840 [info] [127.0.0.1][0f0af0bc][ManagementConnection] The client has reconnected.
+2024-10-13 21:31:52.249 [info] [127.0.0.1][febd5cb2][ExtensionHostConnection] The client has reconnected.
+2024-10-13 21:52:40.810 [info] [127.0.0.1][0f0af0bc][ManagementConnection] The client has reconnected.
+2024-10-13 21:52:40.891 [info] [127.0.0.1][febd5cb2][ExtensionHostConnection] The client has reconnected.
+2024-10-13 22:13:05.815 [info] [127.0.0.1][0f0af0bc][ManagementConnection] The client has reconnected.
+2024-10-13 22:13:41.348 [info] [127.0.0.1][febd5cb2][ExtensionHostConnection] The client has reconnected.
+2024-10-13 22:34:36.873 [info] [127.0.0.1][0f0af0bc][ManagementConnection] The client has reconnected.
+2024-10-13 22:34:37.046 [info] [127.0.0.1][febd5cb2][ExtensionHostConnection] The client has reconnected.
+2024-10-13 22:53:42.816 [info] [127.0.0.1][0f0af0bc][ManagementConnection] The client has reconnected.
+2024-10-13 22:53:43.061 [info] [127.0.0.1][febd5cb2][ExtensionHostConnection] The client has reconnected.
+2024-10-13 23:15:56.851 [info] [127.0.0.1][0f0af0bc][ManagementConnection] The client has reconnected.
+2024-10-13 23:15:57.103 [info] [127.0.0.1][febd5cb2][ExtensionHostConnection] The client has reconnected.
+2024-10-13 23:39:30.797 [info] [127.0.0.1][0f0af0bc][ManagementConnection] The client has reconnected.
+2024-10-13 23:39:31.074 [info] [127.0.0.1][febd5cb2][ExtensionHostConnection] The client has reconnected.
+2024-10-13 23:54:44.802 [info] [127.0.0.1][0f0af0bc][ManagementConnection] The client has reconnected.
+2024-10-13 23:54:44.905 [info] [127.0.0.1][febd5cb2][ExtensionHostConnection] The client has reconnected.
+2024-10-14 00:15:07.866 [info] [127.0.0.1][0f0af0bc][ManagementConnection] The client has reconnected.
+2024-10-14 00:15:08.101 [info] [127.0.0.1][febd5cb2][ExtensionHostConnection] The client has reconnected.
+2024-10-14 00:37:47.912 [info] [127.0.0.1][0f0af0bc][ManagementConnection] The client has reconnected.
+2024-10-14 00:37:48.209 [info] [127.0.0.1][febd5cb2][ExtensionHostConnection] The client has reconnected.
+2024-10-14 00:55:46.843 [info] [127.0.0.1][0f0af0bc][ManagementConnection] The client has reconnected.
+2024-10-14 00:55:47.087 [info] [127.0.0.1][febd5cb2][ExtensionHostConnection] The client has reconnected.
+2024-10-14 01:17:04.777 [info] [127.0.0.1][0f0af0bc][ManagementConnection] The client has reconnected.
+2024-10-14 01:17:04.978 [info] [127.0.0.1][febd5cb2][ExtensionHostConnection] The client has reconnected.
+2024-10-14 01:39:05.777 [info] [127.0.0.1][0f0af0bc][ManagementConnection] The client has reconnected.
+2024-10-14 01:39:06.100 [info] [127.0.0.1][febd5cb2][ExtensionHostConnection] The client has reconnected.
+2024-10-14 01:56:48.784 [info] [127.0.0.1][0f0af0bc][ManagementConnection] The client has reconnected.
+2024-10-14 01:56:49.020 [info] [127.0.0.1][febd5cb2][ExtensionHostConnection] The client has reconnected.
+2024-10-14 02:19:31.859 [info] [127.0.0.1][0f0af0bc][ManagementConnection] The client has reconnected.
+2024-10-14 02:19:32.130 [info] [127.0.0.1][febd5cb2][ExtensionHostConnection] The client has reconnected.
+2024-10-14 02:46:16.874 [info] [127.0.0.1][0f0af0bc][ManagementConnection] The client has reconnected.
+2024-10-14 02:46:17.176 [info] [127.0.0.1][febd5cb2][ExtensionHostConnection] The client has reconnected.
+2024-10-14 02:57:51.678 [info] [127.0.0.1][0f0af0bc][ManagementConnection] The client has reconnected.
+2024-10-14 02:57:51.812 [info] [127.0.0.1][febd5cb2][ExtensionHostConnection] The client has reconnected.
+2024-10-14 03:20:01.812 [info] [127.0.0.1][0f0af0bc][ManagementConnection] The client has reconnected.
+2024-10-14 03:20:02.077 [info] [127.0.0.1][febd5cb2][ExtensionHostConnection] The client has reconnected.
+2024-10-14 03:33:45.892 [info] [127.0.0.1][0f0af0bc][ManagementConnection] The client has reconnected.
+2024-10-14 03:33:46.133 [info] [127.0.0.1][febd5cb2][ExtensionHostConnection] The client has reconnected.
+2024-10-14 04:30:18.473 [info] [127.0.0.1][0f0af0bc][ManagementConnection] The client has reconnected.
+2024-10-14 04:30:35.892 [info] [127.0.0.1][febd5cb2][ExtensionHostConnection] The client has reconnected.
+2024-10-14 04:32:22.616 [info] [127.0.0.1][0f0af0bc][ManagementConnection] The client has reconnected.
+2024-10-14 04:32:48.103 [info] [127.0.0.1][febd5cb2][ExtensionHostConnection] The client has reconnected.
+2024-10-14 05:09:23.021 [error] AggregateError
+    at internalConnectMultiple (node:net:1081:18)
+    at afterConnectMultiple (node:net:1532:5)
+2024-10-14 05:09:23.027 [error] AggregateError
+    at internalConnectMultiple (node:net:1081:18)
+    at afterConnectMultiple (node:net:1532:5)
+2024-10-14 05:09:54.938 [error] AggregateError
+    at internalConnectMultiple (node:net:1081:18)
+    at afterConnectMultiple (node:net:1532:5)
+2024-10-14 05:12:47.079 [error] AggregateError
+    at internalConnectMultiple (node:net:1081:18)
+    at afterConnectMultiple (node:net:1532:5)
+2024-10-14 05:12:47.080 [error] AggregateError
+    at internalConnectMultiple (node:net:1081:18)
+    at afterConnectMultiple (node:net:1532:5)
+2024-10-14 05:20:14.755 [error] AggregateError
+    at internalConnectMultiple (node:net:1081:18)
+    at afterConnectMultiple (node:net:1532:5)
+2024-10-14 05:20:14.836 [error] AggregateError
+    at internalConnectMultiple (node:net:1081:18)
+    at afterConnectMultiple (node:net:1532:5)
+2024-10-14 05:20:18.004 [error] AggregateError
+    at internalConnectMultiple (node:net:1081:18)
+    at afterConnectMultiple (node:net:1532:5)
+2024-10-14 05:20:18.167 [error] AggregateError
+    at internalConnectMultiple (node:net:1081:18)
+    at afterConnectMultiple (node:net:1532:5)
+2024-10-14 06:40:46.567 [info] [127.0.0.1][0f0af0bc][ManagementConnection] The client has reconnected.
+2024-10-14 06:41:18.510 [info] [127.0.0.1][febd5cb2][ExtensionHostConnection] The client has reconnected.
+2024-10-14 07:08:42.174 [error] [File Watcher (node.js)] Failed to watch /etc/nginx/conf.d/hmh-nginx.conf for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/etc/nginx/conf.d/hmh-nginx.conf')
+2024-10-14 07:58:27.831 [info] [127.0.0.1][febd5cb2][ExtensionHostConnection] The client has reconnected.
+2024-10-14 07:58:31.121 [info] [127.0.0.1][0f0af0bc][ManagementConnection] The client has reconnected.
+2024-10-14 07:59:56.688 [info] [127.0.0.1][0f0af0bc][ManagementConnection] The client has reconnected.
+2024-10-14 07:59:56.803 [info] [127.0.0.1][febd5cb2][ExtensionHostConnection] The client has reconnected.
+2024-10-14 08:00:27.980 [info] [127.0.0.1][0f0af0bc][ManagementConnection] The client has reconnected.
+2024-10-14 08:00:28.019 [info] [127.0.0.1][febd5cb2][ExtensionHostConnection] The client has reconnected.
+2024-10-14 08:00:33.163 [info] [127.0.0.1][febd5cb2][ExtensionHostConnection] The client has reconnected.
+2024-10-14 08:00:34.333 [info] [127.0.0.1][0f0af0bc][ManagementConnection] The client has reconnected.
+2024-10-14 08:00:37.951 [info] [127.0.0.1][0f0af0bc][ManagementConnection] The client has reconnected.
+2024-10-14 08:00:53.376 [info] [127.0.0.1][0f0af0bc][ManagementConnection] The client has reconnected.
+2024-10-14 08:00:57.990 [info] [127.0.0.1][0f0af0bc][ManagementConnection] The client has reconnected.
+2024-10-14 08:00:58.061 [info] [127.0.0.1][febd5cb2][ExtensionHostConnection] The client has reconnected.
+2024-10-14 09:07:13.469 [info] [127.0.0.1][febd5cb2][ExtensionHostConnection] The client has reconnected.
+2024-10-14 09:07:15.137 [info] [127.0.0.1][0f0af0bc][ManagementConnection] The client has reconnected.
+2024-10-14 09:07:18.326 [info] [127.0.0.1][0f0af0bc][ManagementConnection] The client has reconnected.
+2024-10-14 09:12:18.510 [info] [127.0.0.1][febd5cb2][ExtensionHostConnection] <10275> Extension Host Process exited with code: 0, signal: null.
+2024-10-14 09:12:18.511 [info] Last EH closed, waiting before shutting down
+2024-10-14 09:17:18.511 [info] Last EH closed, shutting down

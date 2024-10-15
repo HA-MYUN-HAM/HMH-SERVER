@@ -1,0 +1,63 @@
+2024-10-13 15:34:01.408 [info] 로그 수준: Info
+2024-10-13 15:34:01.408 [info] "git"에서 찾은 git 유효성을 검사하는 중
+2024-10-13 15:34:01.408 [info] "2.40.1"에서 git "git"을(를) 사용하는 중
+2024-10-13 15:34:01.408 [warning] Failed to get repository realpath for: "/home/ec2-user/HMH". Error: ENOENT: no such file or directory, realpath '/home/ec2-user/HMH'
+2024-10-13 15:34:01.408 [info] > git rev-parse --show-toplevel [36ms]
+2024-10-13 15:34:01.408 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-13 15:34:01.411 [info] > git rev-parse --show-toplevel [5ms]
+2024-10-13 15:34:01.411 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-13 15:34:01.434 [info] > git rev-parse --show-toplevel [13ms]
+2024-10-13 15:34:01.434 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-13 15:34:01.459 [info] > git rev-parse --show-toplevel [14ms]
+2024-10-13 15:34:01.459 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-13 15:34:01.488 [info] > git rev-parse --show-toplevel [10ms]
+2024-10-13 15:34:01.488 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-13 15:34:01.509 [info] > git rev-parse --show-toplevel [11ms]
+2024-10-13 15:34:01.533 [info] > git rev-parse --git-dir --git-common-dir [18ms]
+2024-10-13 15:34:01.557 [info] Open repository: /home/ec2-user/HMH-SERVER
+2024-10-13 15:34:01.597 [info] > git config --get commit.template [12ms]
+2024-10-13 15:34:01.768 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/swagger refs/remotes/swagger [175ms]
+2024-10-13 15:34:01.805 [info] > git status -z -uall [22ms]
+2024-10-13 15:34:01.867 [info] > git config --get commit.template [15ms]
+2024-10-13 15:34:01.886 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/swagger refs/remotes/swagger [4ms]
+2024-10-13 15:34:01.903 [info] > git status -z -uall [9ms]
+2024-10-13 15:34:02.327 [info] > git check-ignore -v -z --stdin [14ms]
+2024-10-13 15:34:06.532 [info] > git check-ignore -v -z --stdin [2ms]
+2024-10-13 15:34:15.025 [info] > git check-ignore -v -z --stdin [2ms]
+2024-10-13 15:37:03.151 [info] > git check-ignore -v -z --stdin [3ms]
+2024-10-13 15:37:04.116 [info] > git check-ignore -v -z --stdin [3ms]
+2024-10-13 15:37:45.746 [info] > git check-ignore -v -z --stdin [3ms]
+2024-10-13 15:37:46.573 [info] > git show --textconv :HMH/accounts/urls.py [6ms]
+2024-10-13 15:37:46.576 [info] > git ls-files --stage -- /home/ec2-user/HMH-SERVER/HMH/accounts/urls.py [2ms]
+2024-10-13 15:37:48.711 [info] > git show --textconv :HMH/be/admin.py [4ms]
+2024-10-13 15:37:48.713 [info] > git ls-files --stage -- /home/ec2-user/HMH-SERVER/HMH/be/admin.py [2ms]
+2024-10-13 15:37:50.011 [info] > git show --textconv :HMH/be/urls.py [4ms]
+2024-10-13 15:37:50.013 [info] > git ls-files --stage -- /home/ec2-user/HMH-SERVER/HMH/be/urls.py [3ms]
+2024-10-13 15:37:50.017 [info] > git cat-file -s 73e5f5a95b9754960565cd8e2d9b5a2726765c03 [1ms]
+2024-10-13 15:37:59.831 [info] > git show --textconv :HMH/be/views.py [4ms]
+2024-10-13 15:37:59.835 [info] > git ls-files --stage -- /home/ec2-user/HMH-SERVER/HMH/be/views.py [4ms]
+2024-10-13 15:38:05.732 [info] > git show --textconv :HMH/be/settings.py [5ms]
+2024-10-13 15:38:05.735 [info] > git ls-files --stage -- /home/ec2-user/HMH-SERVER/HMH/be/settings.py [4ms]
+2024-10-13 15:38:05.740 [info] > git cat-file -s 1e2a1b5f93f47ba0a4f1b78d9319d60efee6585c [2ms]
+2024-10-13 15:38:06.947 [info] > git show --textconv :HMH/be/admin.py [5ms]
+2024-10-13 15:38:06.950 [info] > git ls-files --stage -- /home/ec2-user/HMH-SERVER/HMH/be/admin.py [4ms]
+2024-10-13 15:38:08.378 [info] > git show --textconv :HMH/be/wsgi.py [6ms]
+2024-10-13 15:38:08.380 [info] > git ls-files --stage -- /home/ec2-user/HMH-SERVER/HMH/be/wsgi.py [3ms]
+2024-10-13 15:38:08.384 [info] > git cat-file -s 103e8aca486f2c2b233905ff192f60f1242d3d87 [2ms]
+2024-10-13 15:38:10.258 [info] > git show --textconv :HMH/be/asgi.py [6ms]
+2024-10-13 15:38:10.260 [info] > git ls-files --stage -- /home/ec2-user/HMH-SERVER/HMH/be/asgi.py [3ms]
+2024-10-13 15:38:10.263 [info] > git cat-file -s f2dda3bfd934d33fca5a0e26c63dc319ffb1dbb4 [1ms]
+2024-10-13 15:38:11.176 [info] > git show --textconv :HMH/be/admin.py [5ms]
+2024-10-13 15:38:11.183 [info] > git ls-files --stage -- /home/ec2-user/HMH-SERVER/HMH/be/admin.py [8ms]
+2024-10-13 15:38:14.699 [info] > git check-ignore -v -z --stdin [3ms]
+2024-10-13 15:38:15.840 [info] > git show --textconv :HMH/be/packages/accounts/home.html [4ms]
+2024-10-13 15:38:15.844 [info] > git ls-files --stage -- /home/ec2-user/HMH-SERVER/HMH/be/packages/accounts/home.html [4ms]
+2024-10-13 15:38:18.348 [info] > git show --textconv :HMH/be/urls.py [6ms]
+2024-10-13 15:38:18.351 [info] > git ls-files --stage -- /home/ec2-user/HMH-SERVER/HMH/be/urls.py [3ms]
+2024-10-13 15:38:18.356 [info] > git cat-file -s 73e5f5a95b9754960565cd8e2d9b5a2726765c03 [3ms]
+2024-10-13 15:38:19.991 [info] > git show --textconv :HMH/be/settings.py [5ms]
+2024-10-13 15:38:19.994 [info] > git ls-files --stage -- /home/ec2-user/HMH-SERVER/HMH/be/settings.py [3ms]
+2024-10-13 15:38:19.998 [info] > git cat-file -s 1e2a1b5f93f47ba0a4f1b78d9319d60efee6585c [2ms]
+2024-10-13 15:47:11.179 [warning] Failed to get repository realpath for: "/home/ec2-user/HMH". Error: ENOENT: no such file or directory, realpath '/home/ec2-user/HMH'
+2024-10-13 15:47:11.190 [info] > git rev-parse --show-toplevel [4ms]
+2024-10-13 15:47:11.190 [info] fatal: not a git repository (or any of the parent directories): .git

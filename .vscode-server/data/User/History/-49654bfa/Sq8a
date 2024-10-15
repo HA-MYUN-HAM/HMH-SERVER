@@ -1,0 +1,13 @@
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch main
+# Your branch is up to date with 'origin/main'.
+#
+# Changes to be committed:
+#	new file:   HMH/be/.gitignore
+#	new file:   HMH/be/requirements.txt
+#	new file:   HMH/be/www_dir/HMH-uwsgi.ini
+#	new file:   HMH/manage.py
+#

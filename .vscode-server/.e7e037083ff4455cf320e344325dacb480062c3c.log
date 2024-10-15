@@ -1,0 +1,20 @@
+*
+* Visual Studio Code Server
+*
+* By using the software, you agree to
+* the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+* the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+*
+Server bound to 127.0.0.1:35885 (IPv4)
+Extension host agent listening on 35885
+
+[07:22:41] 
+
+
+
+
+[07:22:41] Extension host agent started.
+[07:22:41] [127.0.0.1][335b5691][ManagementConnection] New connection established.
+[07:22:42] [127.0.0.1][4a255aad][ExtensionHostConnection] New connection established.
+[07:22:42] [127.0.0.1][4a255aad][ExtensionHostConnection] <2795> Launched Extension Host Process.
+[07:22:49] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/ec2-user)
