@@ -38,7 +38,6 @@ public ip 주소: http://43.202.43.140/
 ### **프론트엔드**
 - React + TypeScript  
 - Axios (백엔드와의 통신)  
-- Kakao Login API (소셜 로그인 지원)
 
 ### **백엔드**
 - Django (백엔드 서버 및 API 구축)  
