@@ -1,6 +1,6 @@
 from django.db import models
 from django.conf import settings
-from django.contrib.auth.models import User
+from accounts.models import CustomUser
 
 class Team(models.Model):
     team_name = models.CharField(max_length=255)
@@ -43,17 +43,12 @@ class EventImage(models.Model):
     def __str__(self):
         return f"Image for event {self.event_id}"
 
-class UserApplication(models.Model):
-    user_id = models.ForeignKey(settings.AUTH_USER_MODEL, related_name='user_applications', on_delete=models.CASCADE)
-    event_id = models.ForeignKey(Event, related_name='user_applications', on_delete=models.CASCADE)
-
-    def __str__(self):
-        return f"{self.user_id.username} applied for {self.event_id.event_name}"
 
 class Ticket(models.Model):
     event = models.ForeignKey(Event, related_name='tickets', on_delete=models.CASCADE)
-    user = models.ForeignKey(settings.AUTH_USER_MODEL, related_name='tickets', on_delete=models.CASCADE)
+    user = models.ForeignKey(CustomUser, related_name='tickets', on_delete=models.CASCADE)
     issued_at = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
         return f'Ticket for {self.event.event_title} - {self.user.username}'
+    

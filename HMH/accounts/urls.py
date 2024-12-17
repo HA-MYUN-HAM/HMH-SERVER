@@ -17,5 +17,5 @@ urlpatterns = [
     path("update", views.UpdateUserInfoView.as_view(), name="update_user_info"),
     path("user/me", views.GetUserInfoView.as_view(), name="get_user_info"),
     path("events/list", views.EventListView.as_view(), name="event_list"),
-    path('mypage/', views.MyPageView.as_view(), name='my_page'),  # GET, PUT 요청 처리
+    path('mypage/', views.MyPageView.as_view(), name='my_page'), 
 ]

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이벤트 이미지 생성 테스트</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input[type="text"], textarea {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        #result {
+            margin-top: 20px;
+        }
+        #generatedImage {
+            max-width: 100%;
+            margin-top: 10px;
+        }
+        .error {
+            color: red;
+            margin-top: 10px;
+        }
+        .success {
+            color: green;
+            margin-top: 10px;
+        }
+        #saveButton {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>이벤트 이미지 생성 테스트</h1>
+    <form id="imageGenerationForm">
+        {% csrf_token %}
+        <div class="form-group">
+            <label for="eventTitle">이벤트 이름:</label>
+            <input type="text" id="eventTitle" required>
+        </div>
+        <div class="form-group">
+            <label for="eventDescription">이벤트 설명:</label>
+            <textarea id="eventDescription" rows="4" required></textarea>
+        </div>
+        <button type="submit">이미지 생성</button>
+        <button type="button" id="saveButton" class="save">이미지 저장</button>
+    </form>
+
+    <div id="result">
+        <h2>생성된 이미지</h2>
+        <img id="generatedImage" style="display: none;">
+        <div id="statusMessage"></div>
+    </div>
+
+    <script>
+        let currentImageUrl = null;
+        document.getElementById('imageGenerationForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            
+            const eventTitle = document.getElementById('eventTitle').value;
+            const eventDescription = document.getElementById('eventDescription').value;
+            const statusMessage = document.getElementById('statusMessage');
+            const generatedImage = document.getElementById('generatedImage');
+            const saveButton = document.getElementById('saveButton');
+
+            const csrftoken = document.querySelector('[name=csrfmiddlewaretoken]').value;
+            // 로딩 상태 표시
+            statusMessage.textContent = '이미지를 생성하는 중...';
+            statusMessage.className = '';
+            generatedImage.style.display = 'none';
+            saveButton.style.display = 'none';
+
+            try {
+                const response = await fetch(`/ai/generate-image/`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'X-CSRFToken': csrftoken
+                    },
+                    body: JSON.stringify({
+                        event_title: eventTitle,
+                        event_description: eventDescription
+                    })
+                });
+
+                if (!response.ok) {
+                    throw new Error('이미지 생성에 실패했습니다.');
+                }
+
+                const data = await response.json();
+                
+                // 이미지 표시
+                currentImageUrl = data.image_url;
+                generatedImage.src = currentImageUrl;
+                generatedImage.style.display = 'block';
+                saveButton.style.display = 'inline-block';
+                statusMessage.textContent = '이미지가 생성되었습니다. 저장하시겠습니까?';
+                statusMessage.className = 'success';
+            } catch (error) {
+                console.error('Error:', error);
+                statusMessage.textContent = error.message;
+                statusMessage.className = 'error';
+                generatedImage.style.display = 'none';
+                saveButton.style.display = 'none';
+            }
+        });
+
+        document.getElementById('saveButton').addEventListener('click', async () => {
+            if (!currentImageUrl) return;
+
+            const eventTitle = document.getElementById('eventTitle').value;
+            const statusMessage = document.getElementById('statusMessage');
+            const csrftoken = document.querySelector('[name=csrfmiddlewaretoken]').value;
+
+            try {
+                const response = await fetch('/ai/save-image/', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'X-CSRFToken': csrftoken
+                    },
+                    body: JSON.stringify({
+                        image_url: currentImageUrl,
+                        event_title: eventTitle
+                    })
+                });
+
+                if (!response.ok) {
+                    throw new Error('이미지 저장에 실패했습니다.');
+                }
+
+                const data = await response.json();
+                statusMessage.textContent = '이미지가 성공적으로 저장되었습니다.';
+                statusMessage.className = 'success';
+            } catch (error) {
+                console.error('Error:', error);
+                statusMessage.textContent = error.message;
+                statusMessage.className = 'error';
+            }
+        });
+    </script>
+</body>
+</html>

@@ -7,5 +7,5 @@ from sample_swagger.views import TestView
 
 # The API URLs are now determined automatically by the router.
 urlpatterns = [
-    path('v1/test/', TestView.as_view(), name='test'),
+    path('v1/test/', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),
 ]
